@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Cards</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    text-align:center;
+    padding:30px;
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+    max-width:700px;
+    margin:auto;
+}
+
+
+.card{
+    background:white;
+    border:2px solid #333;
+    border-radius:12px;
+    padding:20px;
+}
+
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:#4CAF50;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Mini Product Cards</h2>
+
+<div class="grid">
+
+    <div class="card">
+        <h3>Wireless Mouse</h3>
+        <p><b>₹799</b></p>
+        <p>Comfortable wireless mouse for daily use.</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Headphones</h3>
+        <p><b>₹1499</b></p>
+        <p>Noise cancelling over-ear headphones.</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Smart Watch</h3>
+        <p><b>₹2999</b></p>
+        <p>Track fitness and notifications easily.</p>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Bluetooth Speaker</h3>
+        <p><b>₹1999</b></p>
+        <p>Portable speaker with powerful sound.</p>
+        <button>Buy Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
