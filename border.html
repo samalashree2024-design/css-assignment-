@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Border Properties Demo</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+h1{
+    margin:20px;
+}
+
+
+.card{
+    width:220px;
+    height:120px;
+    background:white;
+    display:inline-block;
+    margin:15px;
+    padding:20px;
+    font-weight:bold;
+}
+
+
+.shorthand{
+    border:5px solid red;
+}
+
+
+.eachside{
+    border-top:5px solid blue;
+    border-right:5px dashed green;
+    border-bottom:5px dotted red;
+    border-left:5px double black;
+}
+
+
+.dashed{
+    border:4px dashed purple;
+}
+
+
+.double{
+    border:6px double brown;
+}
+
+
+.radius{
+    border:4px solid teal;
+    border-radius:20px;
+}
+
+
+.outline{
+    border:4px solid black;
+    outline:4px dashed red;
+    outline-offset:6px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>CSS Border Properties Demo</h1>
+
+<div class="card shorthand">
+Border Shorthand
+</div>
+
+<div class="card eachside">
+Different Border on Each Side
+</div>
+
+<div class="card dashed">
+Dashed Border
+</div>
+
+<div class="card double">
+Double Border
+</div>
+
+<div class="card radius">
+Rounded Corners
+</div>
+
+<div class="card outline">
+Outline & Offset
+</div>
+
+</body>
+</html>
