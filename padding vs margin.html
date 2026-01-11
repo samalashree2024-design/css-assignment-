@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Padding vs Margin</title>
+
+<style>
+body{
+    font-family: Arial;
+    text-align:center;
+    margin-top:40px;
+}
+
+
+.wrapper{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+
+.box{
+    width:250px;
+    border:3px solid black;
+    background:#f2f2f2;
+}
+
+
+.boxA{
+    padding:30px;
+}
+
+
+.boxB{
+    margin:30px;
+}
+
+
+p{
+    background:#90CAF9;
+    padding:10px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Padding vs Margin Comparison</h2>
+
+<div class="wrapper">
+
+    
+    <div class="box boxA">
+        <b>Box A (Padding)</b>
+        <p>
+        Padding increases space 
+        INSIDE the box.
+        </p>
+    </div>
+
+    
+    <div class="box boxB">
+        <b>Box B (Margin)</b>
+        <p>
+        Margin increases space 
+        OUTSIDE the box.
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
